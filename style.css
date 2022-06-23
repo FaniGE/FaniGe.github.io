@@ -1,0 +1,18 @@
+/* Estilos para el login o inicio de sesión */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+#nombre-banco {
+    font-family: 'Fredoka One', cursive;
+}
+body {
+    background-image: url(img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
+}
+#nombre-banco {
+    background-image: url(img/fondo-titulo.jpg);
+}
+.formulario {
+    background-color: rgba(0,0,0,.5);
+    padding: 0.875rem;
+}
+

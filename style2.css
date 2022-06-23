@@ -1,0 +1,52 @@
+/* Estilos para el cajero */
+body {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-image: url(img/fondo-titulo.jpg);
+    object-fit: none;
+}
+#cajero {
+    background-color: #C0C0C0;
+    max-width: 43.75rem;
+    border-radius: 0.5rem;
+    margin-top: 3.75rem;
+}
+#pantalla {
+    width: 100%;
+    height: 14.6875rem;
+}
+#pantalla-resultados {
+    width: 60%;
+    height: 50%;
+}
+#container-Panel {
+    background-color: #b7ddff;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+}
+#container-Panel span {
+    background-color: #b7ddff;
+    color:#000000;
+}
+.teclas {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin: 0.3rem;
+}
+/* Color de iconos de 'cancel', 'clear' y 'enter' */
+.btn-danger svg{
+    color: #C0C0C0;
+}
+.btn-warning svg{
+    color: #000000;
+}
+.btn-success svg{
+    color: #C0C0C0;
+}
