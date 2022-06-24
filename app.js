@@ -148,13 +148,13 @@ function resetOne(){ //funcion para eliminar el ultimo caracter de alguno de los
 function cerrarSesion(){ //funcion para remover los elementos de nuestra sesión en localStorage
     localStorage.removeItem("user");
     localStorage.removeItem("saldo");
-    location.href='login.html'; //redirigimos a login.html
+    location.href='index.html'; //redirigimos a index.html
 
 }
 
 function validaUser(){
     if(localStorage.saldo===undefined || localStorage.user=== undefined){
-        location.href='login.html';
+        location.href='index.html';
     }
 }
 
