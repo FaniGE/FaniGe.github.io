@@ -14,8 +14,4 @@ body {
 .formulario {
     background-color: rgba(0,0,0,.5);
     padding: 0.875rem;
-    position: static;
-}
-.form-group input {
-    position:static;
 }
